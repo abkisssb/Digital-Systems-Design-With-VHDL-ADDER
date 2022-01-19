@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Nov  1 16:38:42 2021
+# Process ID: 16700
+# Current directory: C:/Users/ABIOLA/Desktop/VHDL_READY/IASM_LAB_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5644 C:\Users\ABIOLA\Desktop\VHDL_READY\IASM_LAB_2\IASM_LAB_2.xpr
+# Log file: C:/Users/ABIOLA/Desktop/VHDL_READY/IASM_LAB_2/vivado.log
+# Journal file: C:/Users/ABIOLA/Desktop/VHDL_READY/IASM_LAB_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ABIOLA/Desktop/VHDL_READY/IASM_LAB_2/IASM_LAB_2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ABIOLA/Desktop/IASM_LAB_2' since last save.
+WARNING: [Project 1-312] File not found as 'C:/Users/ABIOLA/Desktop/VHDL_READY/VHDL_READY/Nexis Contrs/Nexys4DDR_Master.xdc'; using path 'C:/Users/ABIOLA/Desktop/VHDL_READY/Nexis Contrs/Nexys4DDR_Master.xdc' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'C:/Users/ABIOLA/Desktop/VHDL_READY/VHDL_READY/Nexis Contrs/Nexys4DDR_Master.xdc'; using path 'C:/Users/ABIOLA/Desktop/VHDL_READY/Nexis Contrs/Nexys4DDR_Master.xdc' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ABIOLA/Desktop/VHDL_READY/VHDL_READY/Nexis Contrs/Nexys4DDR_Master.xdc'; using path 'C:/Users/ABIOLA/Desktop/VHDL_READY/Nexis Contrs/Nexys4DDR_Master.xdc' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:11 . Memory (MB): peak = 711.504 ; gain = 75.441
+update_compile_order -fileset sources_1
+set_property top two_bit_adder [current_fileset]
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/ABIOLA/Desktop/VHDL_READY/IASM_LAB_2/IASM_LAB_2.srcs/sources_1/bd/two_bit_adder_block/two_bit_adder_block.bd}
+Adding component instance block -- xilinx.com:module_ref:half_adder:1.0 - half_adder_0
+Adding component instance block -- xilinx.com:module_ref:half_adder:1.0 - half_adder_1
+Adding component instance block -- xilinx.com:module_ref:half_adder:1.0 - half_adder_2
+Successfully read diagram <two_bit_adder_block> from BD file <C:/Users/ABIOLA/Desktop/VHDL_READY/IASM_LAB_2/IASM_LAB_2.srcs/sources_1/bd/two_bit_adder_block/two_bit_adder_block.bd>
+open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 749.934 ; gain = 0.000
+close_bd_design [get_bd_designs two_bit_adder_block]
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  2 01:17:22 2021...

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Nov  1 16:38:42 2021
+# Process ID: 16700
+# Current directory: C:/Users/ABIOLA/Desktop/VHDL_READY/IASM_LAB_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5644 C:\Users\ABIOLA\Desktop\VHDL_READY\IASM_LAB_2\IASM_LAB_2.xpr
+# Log file: C:/Users/ABIOLA/Desktop/VHDL_READY/IASM_LAB_2/vivado.log
+# Journal file: C:/Users/ABIOLA/Desktop/VHDL_READY/IASM_LAB_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ABIOLA/Desktop/VHDL_READY/IASM_LAB_2/IASM_LAB_2.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top two_bit_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/ABIOLA/Desktop/VHDL_READY/IASM_LAB_2/IASM_LAB_2.srcs/sources_1/bd/two_bit_adder_block/two_bit_adder_block.bd}
+close_bd_design [get_bd_designs two_bit_adder_block]
